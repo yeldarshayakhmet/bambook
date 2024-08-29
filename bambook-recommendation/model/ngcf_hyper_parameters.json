@@ -1,0 +1,26 @@
+{
+    "task":"ranking",
+    "loss_type":"sampled_softmax",
+    "embed_size":16,
+    "norm_embed":false,
+    "n_epochs":30,
+    "lr":0.001,
+    "lr_decay":false,
+    "epsilon":1e-05,
+    "reg":null,
+    "batch_size":1024,
+    "use_bn":true,
+    "dropout_rate":null,
+    "hidden_units":[
+        128,
+        64
+    ],
+    "num_sampled_per_batch":null,
+    "sampler":"uniform",
+    "recent_num":10,
+    "random_num":null,
+    "multi_sparse_combiner":"sqrtn",
+    "seed":42,
+    "lower_upper_bound":null,
+    "tf_sess_config":null
+}

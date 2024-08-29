@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS books (
+  book_id bigint generated always as identity primary key,
+  isbn VARCHAR(255) NULL,
+  text_reviews_count INT,
+  country_code VARCHAR(10) NULL,
+  language_code VARCHAR(10) NULL,
+  average_rating REAL,
+  description TEXT,
+  link VARCHAR(511),
+  publisher VARCHAR(255),
+  num_pages INT,
+  publication_day INT,
+  publication_month INT,
+  publication_year INT,
+  isbn13 VARCHAR(255) NULL,
+  edition_information VARCHAR(255) NULL,
+  url VARCHAR(511),
+  image_url VARCHAR(511),
+  ratings_count INT,
+  work_id VARCHAR(255),
+  title VARCHAR(255),
+  title_without_series VARCHAR(255)
+);

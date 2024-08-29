@@ -1,0 +1,1 @@
+create table book_json (book jsonb)

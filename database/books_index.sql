@@ -1,0 +1,1 @@
+create index if not exists books_title on books (title)
